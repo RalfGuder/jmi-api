@@ -5,6 +5,8 @@ package javax.jmi.reflect;
  */
 public class InvalidObjectException extends JmiException {
     
+  private static final long serialVersionUID = 4949876443824782846L;
+
     /**
      * Constructs an <code>InvalidObjectException</code> without detail message.
      * @elementInError element in error.

@@ -52,4 +52,11 @@
 		<version.plugin.javadoc>3.0.1</version.plugin.javadoc>
 		<dl4j.version>1.0.0-beta4</dl4j.version>
 	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.sap.cds</groupId>
+			<artifactId>cds-adapter-odata-v4</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+	</dependencies>
 </project>
