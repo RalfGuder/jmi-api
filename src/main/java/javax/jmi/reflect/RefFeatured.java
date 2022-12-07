@@ -19,9 +19,10 @@ public interface RefFeatured extends RefBaseObject {
   public void refSetValue(String featureName, java.lang.Object value) throws JmiException;
 
   /**
-   * The <tt>refGetValue</tt> operations fetch the current value of the attribute 
-   * or reference denoted by the "feature" (or featureName) argument. If this object 
-   * is a class proxy, only classifier scoped attributes can be fetched.
+   * The operations fetch the current value of the attribute or reference 
+   * denoted by the <b>feature</b> (or <b>featureName</b>) argument. 
+   * If this object is a class proxy, only classifier scoped attributes can be 
+   * fetched.
    *
    * @param feature is a RefObject
    * @return a Object
@@ -31,8 +32,8 @@ public interface RefFeatured extends RefBaseObject {
   public java.lang.Object refGetValue(RefObject feature) throws JmiException;
 
   /**
-   * The <tt>refGetValue</tt> operations fetch the current value of the attribute 
-   * or reference denoted by the "feature" (or featureName) argument. If this object 
+   * The operations fetch the current value of the attribute or reference 
+   * denoted by the <b>feature</b> (or <b>featureName</b>) argument. If this object 
    * is a class proxy, only classifier scoped attributes can be fetched.
    *
    * @param featureName is a String
