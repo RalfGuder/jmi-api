@@ -9,7 +9,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub RalfGuder Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/RalfGuder/ralfguder.github.io/maven</url>
+			<url>https://maven.pkg.github.com/RalfGuder/ralfguder.github.io</url>
 		</repository>
 	</distributionManagement>
 	<build>
