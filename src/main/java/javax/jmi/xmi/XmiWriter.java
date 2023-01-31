@@ -8,7 +8,7 @@ import javax.jmi.reflect.RefPackage;
 public interface XmiWriter {
     public void write(OutputStream stream, RefPackage extent, String xmiVersion)
         throws IOException;
-    public void write(OutputStream stream, Collection objects, String xmiVersion)
+    public void write(OutputStream stream, Collection<?> objects, String xmiVersion)
         throws IOException;
 }
 

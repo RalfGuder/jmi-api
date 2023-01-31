@@ -1,8 +1,19 @@
 
 package javax.jmi.reflect;
 
-/** Ancestor for all JMI exceptions thrown by reflective and generated
+/** 
+ * Ancestor for all JMI exceptions thrown by reflective and generated
  * methods.
+ * 
+ * <p>At the root of the exception framework is JmiException, which is the
+ * superclass of all other JMI exceptions. JmiException is intended to be an 
+ * unchecked exception and as such, extends java.lang.RuntimeException.
+ * 
+ * <p>The JmiException contains two private attributes - <b>elementInError</b> and 
+ * <b>objectInError</b>. The <b>elementInError</b> is the ModelElement of the 
+ * instance for which the error is being reported. The <b>objectInError</b> is 
+ * the object for which the error is being reported.
+ *  
  */
 public abstract class JmiException extends RuntimeException {
     /**

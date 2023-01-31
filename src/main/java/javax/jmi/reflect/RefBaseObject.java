@@ -31,6 +31,9 @@ public interface RefBaseObject {
    * <p>If the ignoreLifecycle tag (attached to the package containing the 
    * metamodel) is set to true, this method throws the 
    * java.lang.UnsupportedOperationException.
+   * 
+   * <p>Die Operation gibt das Paketobjekt für das Paket zurück, das dieses 
+   * Objekt am unmittelbarsten enthält oder aggregiert.
    */
   public RefPackage refImmediatePackage();
 
